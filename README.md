@@ -1,2 +1,4 @@
 # Fluoro-forest
 A semi-supervised machine learning worfklow for cell type prediction in high plex immunofluorescence data
+
+![Alt text](images/workflow.png)
