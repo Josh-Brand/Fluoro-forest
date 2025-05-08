@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="workflow.png" alt = "fluoroforest workflow" width="800">
+  <img src="method_workflow.png" alt = "fluoroforest workflow" width="800">
 </div>
 
 Method overview can be found here:  , recommended to start with core_c7.ipynb for full worfklow
