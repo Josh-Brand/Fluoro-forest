@@ -5,15 +5,15 @@
   <img src="workflow.png" alt = "fluoroforest workflow" width="800">
 </div>
 
-To run the provided examples, image data and epxression summaries can found at Dryad: 
-specificall, '_expression.tsv' and '.ome.tif files', to create the final project structure:
+Method overview can be found here:  , recommended to start with core_c7.ipynb for full worfklow
 
-For method overview: 
+To run the provided examples, image data and epxression summaries can found at Dryad: 
+specifically, '_expression.tsv' and '.ome.tif files', to create the final project structure:
 
 ```
 fluoroforest
 ├── environments
-│   ├── cellpose.yaml # environment for running cell segmentation (independent workflow, applied example of cellpose)
+│   ├── cellpose.yaml # environment for cell segmentation (independent workflow, applied example of cellpose)
 │   └── segmentation.yaml # environment for running training and prediction framework
 ├── example_data
 │   ├── anal_cancer
