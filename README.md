@@ -13,7 +13,7 @@ specifically, '_expression.tsv' and '.ome.tif files', to create the final projec
 ```
 fluoroforest
 ├── environments
-│   ├── cellpose.yaml # environment for cell segmentation (independent workflow, applied example of cellpose)
+│   ├── cellpose.yaml # environment for cell segmentation (independent workflow)
 │   └── segmentation.yaml # environment for running training and prediction framework
 ├── example_data
 │   ├── anal_cancer
@@ -48,10 +48,10 @@ fluoroforest
 │   │   └── segmentation_utils.py
 │   └── notebooks
 │       ├── __init__.py
-│       ├── combined_c7_n12.ipynb # compares exclusive vs composite model
+│       ├── combined_c7_n12.ipynb # compares exclusive vs composite models
 │       ├── core_c7.ipynb # EXAMPLE 1, requires annotation environment
 │       ├── core_n12.ipynb # EXAMPLE 2, require annotation environment
-│       └── segmentation_example.ipynb # segmentation worfklow (requires cellpose environment)
+│       └── segmentation_example.ipynb # segmentation worfklow, requires cellpose environment
 └── workflow.png
 ```
 
