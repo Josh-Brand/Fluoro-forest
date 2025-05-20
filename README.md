@@ -5,10 +5,12 @@
   <img src="method_workflow.png" alt = "fluoroforest workflow" width="800">
 </div>
 
-Method overview can be found here:  , recommended to start with core_c7.ipynb for full worfklow
+Method overview here:  
 
-To run the provided examples, image data and epxression summaries can found at Dryad: 
-specifically, '_expression.tsv' and '.ome.tif files', to create the final project structure:
+Recommended start: core_c7.ipynb for full workflow
+
+To run the provided examples, image data and expression summaries will need to be accessed - Dryad: https://doi.org/10.5061/dryad.hqbzkh1v1 (live after submission)
+specifically, '_expression.tsv' and '.ome.tif files' are needed to create the final project structure below
 
 ```
 fluoroforest
@@ -18,8 +20,8 @@ fluoroforest
 ├── example_data
 │   ├── anal_cancer
 │   │   ├── processed
-│   │   │   ├── C-7.ome.tif # core biopsy 1 (DRYAD)
-│   │   │   └── N-12.ome.tif # core biopsy 2 (DRYAD)
+│   │   │   ├── C-7.ome.tif # core biopsy 1 **(DRYAD)**
+│   │   │   └── N-12.ome.tif # core biopsy 2 **(DRYAD)**
 │   │   ├── raw
 │   │   │   └── channelnames.txt # marker names in order of image slice
 │   │   ├── segmentations
@@ -29,9 +31,9 @@ fluoroforest
 │   │   │   └── N-12.geojson
 │   │   ├── summaries
 │   │   │   ├── C-7_coords.csv
-│   │   │   ├── C-7_expression.csv # expression summary of core 1 (DRYAD)
+│   │   │   ├── C-7_expression.csv # expression summary of core 1 **(DRYAD)**
 │   │   │   ├── N-12_coords.csv
-│   │   │   └── N-12_expression.csv # expression summary of core 2 (DRYAD)
+│   │   │   └── N-12_expression.csv # expression summary of core 2 **(DRYAD)**
 │   │   └── temp_annotations
 │   │       ├── C7_annotations.csv # training data
 │   │       └── N12_annotations.csv # training data
