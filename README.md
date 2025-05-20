@@ -9,8 +9,9 @@ Method overview here:
 
 Recommended start: core_c7.ipynb for full workflow
 
-To run the provided examples, image data and expression summaries will need to be accessed - Dryad: https://doi.org/10.5061/dryad.hqbzkh1v1 (live after submission)
-specifically, '_expression.tsv' and '.ome.tif files' are needed to create the final project structure below
+To run the provided examples, images and expression summaries will need to be accessed - Dryad: https://doi.org/10.5061/dryad.hqbzkh1v1 (live after submission)
+
+Specifically, '_expression.tsv' and '.ome.tif files' are needed to create the final project structure below
 
 ```
 fluoroforest
