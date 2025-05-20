@@ -14,7 +14,7 @@ specifically, '_expression.tsv' and '.ome.tif files', to create the final projec
 fluoroforest
 ├── environments
 │   ├── cellpose.yaml # environment for cell segmentation (independent workflow)
-│   └── cell_annotations.yaml # environment for running training and prediction framework
+│   └── cell_annotations.yml # environment for running training and prediction framework
 ├── example_data
 │   ├── anal_cancer
 │   │   ├── processed
